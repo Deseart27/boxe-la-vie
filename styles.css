@@ -102,8 +102,8 @@ p { margin: 0 0 1em; }
 
 /* Coach */
 .two-col { display: grid; grid-template-columns: .9fr 1.1fr; gap: 48px; align-items: start; }
-.coach-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 6vw, 72px); align-items: center; }
-.coach-photo { margin: 0; }
+.coach-grid { display: grid; grid-template-columns: .8fr 1fr; gap: clamp(32px, 6vw, 72px); align-items: center; }
+.coach-photo { margin: 0; max-width: 440px; justify-self: center; width: 100%; }
 .coach-photo img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 45% center; border-radius: var(--radius); box-shadow: 0 24px 60px rgba(0, 0, 0, .18); }
 .prose p:not(.eyebrow) { font-size: 1.1rem; }
 .tags { list-style: none; padding: 0; margin: 24px 0 0; display: flex; flex-wrap: wrap; gap: 10px; }
