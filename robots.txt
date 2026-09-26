@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://deseart27.github.io/boxe-la-vie/sitemap.xml
