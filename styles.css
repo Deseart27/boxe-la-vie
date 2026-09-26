@@ -102,6 +102,9 @@ p { margin: 0 0 1em; }
 
 /* Coach */
 .two-col { display: grid; grid-template-columns: .9fr 1.1fr; gap: 48px; align-items: start; }
+.coach-photo { position: relative; margin: 32px 0 0; max-width: 440px; }
+.coach-photo img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: var(--radius); position: relative; z-index: 1; }
+.coach-photo::before { content: ""; position: absolute; inset: 16px -16px -16px 16px; border: 3px solid var(--red); border-radius: var(--radius); }
 .prose p { font-size: 1.1rem; }
 .tags { list-style: none; padding: 0; margin: 24px 0 0; display: flex; flex-wrap: wrap; gap: 10px; }
 .tags li { padding: 6px 14px; border-radius: 999px; background: var(--black); color: var(--sand); font-size: .85rem; font-weight: 500; }
